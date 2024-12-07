@@ -13,7 +13,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
 
-include { MYPIPELINE  } from './workflows/mypipeline'
+include { MYPIPELINE              } from './workflows/mypipeline'
 include { PIPELINE_INITIALISATION } from './subworkflows/local/utils_nfcore_mypipeline_pipeline'
 include { PIPELINE_COMPLETION     } from './subworkflows/local/utils_nfcore_mypipeline_pipeline'
 include { getGenomeAttribute      } from './subworkflows/local/utils_nfcore_mypipeline_pipeline'
